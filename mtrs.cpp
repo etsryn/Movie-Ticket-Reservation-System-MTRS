@@ -1,20 +1,20 @@
-#include<iostream> // for cout, cin, eof() function
-#include<string> // for string keyword & erase()
-#include<vector> // for vector data structure & push_back() & pop_back()
+#include<iostream>
+#include<string>
+#include<vector>
 #include<cmath>
-#include<fstream> // for fstream() & ifstream() & ofstream()
-#include<windows.h> // for system() & Sleep() function
-#include<conio.h> // not a part of c++ standard library, still can be used, here for getch() function
-#include <sstream> // for stringstream class
-#include <cstdlib> // for atoll() function
-#include<cctype> // for isalpha() function
-#include <chrono>  // for syste_clock
-#include <ctime> // for getting current time
-#include<algorithm> // find() in vector
+#include<fstream>
+#include<windows.h>
+#include<conio.h>
+#include <sstream>
+#include <cstdlib>
+#include<cctype>
+#include <chrono>
+#include <ctime>
+#include<algorithm>
 #include<ctime>
 #include<random>
 using namespace std;
-using namespace std::chrono; // for syste_clock
+using namespace std::chrono;
 // Initiaters
     // verifiers
         void databaseVerifier(int from, int to);
