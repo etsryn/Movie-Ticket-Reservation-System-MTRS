@@ -28,6 +28,7 @@ You can contribute to my code in following ways : -
 3. I wish to include a "Log Out" functionality, which resets all the current user information, for which i need that program should go to the option panel after every successful or unseccuesssful module usage, so that user get a chance to Log Out Their Account and the program again ask the Unique Id of the new user.
 
 # License
+Apache-2.0 license
 
 # Support
 Contact me at :- 
