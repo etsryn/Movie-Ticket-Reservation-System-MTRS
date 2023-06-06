@@ -1,0 +1,12 @@
+Ticket Id : 609 783 87 0 174 
+Movie Name : Ice Age
+Date : 05/06/2023
+Time Slot : 03:00 PM
+Auditorium Number : 4
+Number of Seat(s) : 5
+Seat(S)  : [A-1] [A-2] [A-4] [A-8] [A-9] 
+Price : 708.000000
+Class Booked : Normal Class
+Phone Number : +91-7303201977
+Booked Row : A
+
