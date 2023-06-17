@@ -8,7 +8,7 @@ This program is built using C++ Programming Language and Few Concepts of Object 
 
 # Installation
 1. After Downloading The Files, gather it into a folder (folder's name could be of your choice)
-2. Keep the name of the file as it is, because it is programmed with such attribute, or else you can edit the code, you are good to go
+2. Keep the name of the file as it is, because it is programmed with such attribute, or else if you can edit the code, you are good to go
 3. You'll be needing any Integrated Development Environment IDE (i used VS Code)
 4. You'll be needing any Compiler (i used g++)
 
