@@ -13,9 +13,9 @@ This program is built using C++ Programming Language and Few Concepts of Object 
 4. You'll be needing any Compiler (i used MingW)
 
 # Usage
-Compile the mtrs.cpp file and execute it
---> Command I Used : Compilation -> g++ mtrs.cpp
---> Command I Used : Execution -> ./a.exe
+### Compile the mtrs.cpp file and execute it
+1. Command I Used : Compilation -> g++ mtrs.cpp
+2. Command I Used : Execution -> ./a.exe
 
 # Features
 1. It involves a very handy use of File Handling and File Manipulation
