@@ -1,47 +1,94 @@
-# Movie-Ticket-Reservation-System-MTRS
+# Movie Ticket Reservation System (MTRS)
 
-# Project Title
-Movie Ticket Reservation System
+## Overview
+The **Movie Ticket Reservation System (MTRS)** is a command-line-based C++ application designed for booking movie tickets with robust file handling and validation mechanisms. This project utilizes Object-Oriented Programming (OOP) principles and implements various data validation techniques to ensure an efficient ticket reservation experience.
 
-# Description 
-This program is built using C++ Programming Language and Few Concepts of Object Oriented Programming
+## Features
+- **Secure Booking System** – Implements unique user authentication using Aadhar Number and Unique ID.
+- **File Handling & Persistence** – Maintains records in text-based databases for seamless transaction tracking.
+- **Seat Reservation System** – Ensures seat availability validation and prevents double booking.
+- **Date Validation** – Restricts booking to a maximum of 7 days in advance.
+- **Input Validation** – Handles incorrect inputs, including octal digit errors (08 and 09).
+- **User Logout Mechanism** – Enhances user session management (Planned Feature).
 
-# Installation
-1. After Downloading The Files, gather it into a folder (folder's name could be of your choice)
-2. Keep the name of the file as it is, because it is programmed with such attribute, or else if you can edit the code, you are good to go
-3. You'll be needing any Integrated Development Environment IDE (i used VS Code)
-4. You'll be needing any Compiler (i used MingW)
+---
 
-# Usage
-### Compile the mtrs.cpp file and execute it
-1. Command I Used : Compilation -> g++ mtrs.cpp
-2. Command I Used : Execution -> ./a.exe
+## Installation Guide
+To run the **MTRS** application on your system, follow these steps:
 
-# Features
-1. It involves a very handy use of File Handling and File Manipulation
-2. This programs only executes successfully if the Text File based Database is well established, means the Unique Id and Aadhar Number of the user should be in a specific proportion as coded in the program
+### Prerequisites
+- **C++ Compiler** (e.g., [MingW](https://www.mingw-w64.org/), Clang, or GCC)
+- **Integrated Development Environment (IDE)** (e.g., [VS Code](https://code.visualstudio.com/), Code::Blocks, or Dev-C++)
 
-# Contributing
-You can contribute to my code in following ways : -
-1. Since a movie ticket can only be booked 7 days prior, there is a function called "void getDate()" which validates the date entered by the user, although it has been passed through 2800+ test cases, still there is a possibility of any error.
-2. If seat number 08 and 09 is booked, and if the user pressed 8 or 9, the program won't allow to go further and will ask to enter vacant seat numbers, but if the user entered 08 or 09 the program will move further, this is because 08 and 09 is an "invalid octal digit".
-3. I wish to include a "Log Out" functionality, which resets all the current user information, for which i need that program should go to the option panel after every successful or unseccuesssful module usage, so that user get a chance to Log Out Their Account and the program again ask the Unique Id of the new user.
+### Setup Instructions
+1. Download the repository and extract it into a preferred directory.
+2. Ensure the file names remain unchanged to maintain program compatibility.
+3. Open the project in an IDE or navigate to the directory via the terminal.
 
-# License
-Apache-2.0 license
+---
 
-# Support
-Contact me at :- 
-1. LinkedIn Account : www.linkedin.com/in/rayyan-ashraf-71117b249
-2. Instagram Account : @etsrayy
-3. Email At : ryshashraf@gmail.com
+## Compilation & Execution
 
-# Changelog
-1. Currently working on 3rd point of Contributing section.
+### Command-Line Instructions
+#### **Compilation:**
+```sh
+ g++ mtrs.cpp -o mtrs
+```
 
-# Conclusion
-This program is currently compiling with zero error, so you are good to go with it, Thank You
+#### **Execution:**
+```sh
+ ./mtrs  # On Linux/macOS
+ mtrs.exe  # On Windows
+```
 
-# Profile
-1. Name : Rayyan Ashraf
-2. Designation :  Student of B-Tech Computer Science Engineering (1st Year)
+### IDE Execution
+1. Open `mtrs.cpp` in an IDE.
+2. Select **Build & Run** (Shortcut: `Ctrl + F5` in VS Code).
+3. Follow the on-screen prompts to proceed with ticket reservations.
+
+---
+
+## File Handling Mechanism
+The program utilizes text-based storage for persistent data management. The database structure ensures seamless retrieval and updates.
+
+- **User Information File:** Stores Unique ID and Aadhar Number mappings.
+- **Seat Reservation File:** Maintains seat availability and booking status.
+- **Transaction Logs:** Tracks successful and failed reservations for debugging and auditing purposes.
+
+---
+
+## Known Limitations & Contribution Scope
+We welcome contributions to improve the **MTRS** system. Below are known issues that require enhancement:
+
+1. **Date Validation Improvement:** The function `void getDate()` ensures bookings are made only 7 days prior. Although tested under 2800+ test cases, further refinements are encouraged.
+2. **Octal Input Handling:** When seats `08` and `09` are booked, users can still proceed by entering `08` or `09` due to invalid octal representation. Input validation enhancements are needed.
+3. **Logout Functionality:** A proposed feature to reset session data and return to the login panel after each transaction.
+
+### How to Contribute
+1. Fork the repository.
+2. Make necessary modifications in the `mtrs.cpp` file.
+3. Test the application rigorously.
+4. Submit a pull request with detailed changes and justifications.
+
+---
+
+## License
+This project is licensed under the **Apache-2.0 License**. Refer to `LICENSE` for details.
+
+---
+
+## Support & Contact
+For further queries, reach out via:
+- **LinkedIn:** [Rayyan Ashraf](https://www.linkedin.com/in/rayyan-ashraf-71117b249)
+- **Instagram:** [@etsrayy](https://www.instagram.com/etsrayy/)
+- **Email:** [ryshashraf@gmail.com](mailto:ryshashraf@gmail.com)
+
+---
+
+## Changelog
+- Currently working on the **Logout Functionality** to enhance user session management.
+
+---
+
+## Maintainer
+**Rayyan Ashraf** – B.Tech Computer Science & Engineering (5th Semester) @ Galgotias University
